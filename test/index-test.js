@@ -28,7 +28,7 @@ describe("longPlaneteerCalls", function() {
         expect(longPlaneteerCalls(longCalls)).toBe(true);
       });
 
-      it("returns false if no calls are longer than 4 characters", function() {
+    it("returns false if no calls are longer than 4 characters", function() {
         var shortCalls = ["wind", "fire"];
         expect(longPlaneteerCalls(shortCalls)).toBe(false);
       });

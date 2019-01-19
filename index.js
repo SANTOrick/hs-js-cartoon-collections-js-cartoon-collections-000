@@ -7,7 +7,7 @@ function dwarfRollCall(dwarves) {
 line.push((i + 1) + '. ' + name);
 }
 let lineNew = line.toString()
-lineNew.replace(/,/g, 'fafa')
+lineNew.join(" ")
 return lineNew;
 }
 

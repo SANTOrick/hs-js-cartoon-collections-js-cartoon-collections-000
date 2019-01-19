@@ -1,6 +1,7 @@
-let dwarves =[];
 
-function dwarfRollCall(dwarves=[]) {
+
+function dwarfRollCall(dwarves) {
+  let dwarves =[];
     let line = []
   for (var i = 0; i < dwarfRollCall.length; i += 1) {
   let name = dwarfRollCall[i];

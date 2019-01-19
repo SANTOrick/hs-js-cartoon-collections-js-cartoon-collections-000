@@ -7,7 +7,7 @@ function dwarfRollCall(dwarves) {
 line.push((i + 1) + '. ' + name);
 }
 let lineNew = line.toString()
-lineNew.replace(/\/,/, ' ')
+lineNew.replace(/\/,/, '123')
 return lineNew;
 }
 

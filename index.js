@@ -6,6 +6,7 @@ function dwarfRollCall(dwarves) {
   let name = dwarves[i];
 line.push(' ' + (i + 1) + '. ' + name);
 }
+line.toString();
 return "The line is currently:" + line;
 }
 

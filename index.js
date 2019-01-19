@@ -7,7 +7,7 @@ function dwarfRollCall(dwarves) {
 line.push((i + 1) + '. ' + name);
 }
 line.toString()
-line = line.split('/,').join(' ')
+line.split('/,').join(' ')
 return line.toString();
 }
 

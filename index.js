@@ -4,8 +4,6 @@ function dwarfRollCall(dwarves) {
   let line = []
   line.push(' ' + (i + 1) + '. ' + name);
 }
-return "The line is currently:" + lineOrder;
-}
 
 function summonCaptainPlanet(planeteerCalls){
 }

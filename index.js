@@ -1,4 +1,4 @@
-dwarves =[];
+let dwarves =[];
 
 function dwarfRollCall(dwarves) {
     let line = []

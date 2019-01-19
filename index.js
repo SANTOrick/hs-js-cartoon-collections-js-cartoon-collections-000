@@ -7,7 +7,7 @@ function dwarfRollCall(dwarves) {
 line.push(' ' + (i + 1) + '. ' + name);
 }
 line.toString();
-return "The line is currently:" + line;
+return line;
 }
 
 function summonCaptainPlanet(planeteerCalls){

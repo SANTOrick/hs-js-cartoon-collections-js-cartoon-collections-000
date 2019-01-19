@@ -15,4 +15,4 @@ function longPlaneteerCalls(words) {
 
 function findTheCheese (foods) {
 }
-console.log(dwarfRollCall)
+console.log(dwarfRollCall(line))

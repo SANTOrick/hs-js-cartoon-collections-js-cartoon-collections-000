@@ -6,8 +6,8 @@ function dwarfRollCall(dwarves) {
   let name = dwarves[i];
 line.push((i + 1) + '. ' + name);
 }
-line.toString()
-line.split('/,').join(' ')
+lineNew=line.toString()
+lineNew.split('/,').join(' ')
 return line.toString();
 }
 

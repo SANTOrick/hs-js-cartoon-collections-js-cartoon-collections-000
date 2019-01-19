@@ -6,9 +6,8 @@ function dwarfRollCall(dwarves) {
   let name = dwarves[i];
 line.push((i + 1) + '. ' + name);
 }
-let lineNew = line.toString()
-lineNew.join(" ");
-return lineNew;
+line.join(" ");
+return line;
 }
 
 function summonCaptainPlanet(planeteerCalls){
